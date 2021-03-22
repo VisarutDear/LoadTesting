@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 465.0,
+    "medianResTime" : 465.0,
+    "minResTime" : 465.0,
+    "maxResTime" : 465.0,
+    "pct1ResTime" : 465.0,
+    "pct2ResTime" : 465.0,
+    "pct3ResTime" : 465.0,
+    "throughput" : 2.150537634408602,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  },
+  "CreateRoom" : {
+    "transaction" : "CreateRoom",
+    "sampleCount" : 1,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 465.0,
+    "medianResTime" : 465.0,
+    "minResTime" : 465.0,
+    "maxResTime" : 465.0,
+    "pct1ResTime" : 465.0,
+    "pct2ResTime" : 465.0,
+    "pct3ResTime" : 465.0,
+    "throughput" : 2.150537634408602,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  }
+}

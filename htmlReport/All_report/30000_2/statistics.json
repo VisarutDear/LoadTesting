@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 30000,
+    "errorCount" : 8152,
+    "errorPct" : 27.173334,
+    "meanResTime" : 11551.467666666698,
+    "medianResTime" : 15802.0,
+    "minResTime" : 195.0,
+    "maxResTime" : 26468.0,
+    "pct1ResTime" : 23451.9,
+    "pct2ResTime" : 24181.0,
+    "pct3ResTime" : 25361.0,
+    "throughput" : 985.3834784036787,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  },
+  "JoinServer" : {
+    "transaction" : "JoinServer",
+    "sampleCount" : 30000,
+    "errorCount" : 8152,
+    "errorPct" : 27.173334,
+    "meanResTime" : 11551.467666666698,
+    "medianResTime" : 15802.0,
+    "minResTime" : 195.0,
+    "maxResTime" : 26468.0,
+    "pct1ResTime" : 23451.9,
+    "pct2ResTime" : 24181.0,
+    "pct3ResTime" : 25361.0,
+    "throughput" : 985.3834784036787,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  }
+}
