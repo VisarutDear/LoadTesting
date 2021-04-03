@@ -2137,7 +2137,7 @@ sock.close();</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">7500</stringProp>
+        <stringProp name="ThreadGroup.num_threads">500</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration">80</stringProp>
@@ -2573,13 +2573,13 @@ else {
         </ResultCollector>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="CreateRoom-SelectFC-Ready" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="CreateRoom-SelectFC-Ready" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">100</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -2612,7 +2612,7 @@ if (sock.isConnected()) {
     sleep(200)
     pr.println(&apos;/srd 54&apos;)
     pr.flush()
-    sleep(10000)
+    sleep(40000)
 //    pr.println(&apos;/quit&apos;)
 //    pr.flush()
     pr.println(&apos;/ready&apos;)
@@ -2622,8 +2622,7 @@ if (sock.isConnected()) {
 else {
     System.out.println(&apos;Server is not listening&apos;)
     SampleResult.setSuccessful(false)
-}
-    sleep(35000)</stringProp>
+}</stringProp>
         </JSR223Sampler>
         <hashTree/>
         <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="false">
@@ -2804,13 +2803,13 @@ else {
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <stringProp name="LoopController.loops">100</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">100</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.scheduler">true</boolProp>
+        <stringProp name="ThreadGroup.duration">100</stringProp>
+        <stringProp name="ThreadGroup.delay">5</stringProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -2825,7 +2824,6 @@ def sock = new Socket()
 def host = &quot;143.198.212.115&quot; // change it to your host
 def port = 8888 // change it to your port
 def timeout = 10000 // change it to your timeout (in milliseconds)
-def totalPerRoom = 100
 sock.setSoTimeout(timeout)
 sock.connect(new InetSocketAddress(host, port))
 PrintWriter pr = new PrintWriter(sock.getOutputStream())
@@ -2835,6 +2833,10 @@ if (sock.isConnected()) {
     pr.flush()
     sleep(200)
     pr.println(&apos;/join room&apos;+Parameters)
+//    pr.println(&apos;/join room1&apos;)
+    pr.flush()
+    sleep(200)
+    pr.println(&apos;/ready&apos;)
     pr.flush()
     SampleResult.setSuccessful(true)
 
@@ -2889,7 +2891,44 @@ else {
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">C:\Users\Dear\Downloads\apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin\stesstest.jtl</stringProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>
