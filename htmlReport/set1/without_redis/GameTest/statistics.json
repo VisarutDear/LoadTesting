@@ -1,0 +1,50 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 10200,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 757.7060784313721,
+    "medianResTime" : 64.0,
+    "minResTime" : 25.0,
+    "maxResTime" : 62242.0,
+    "pct1ResTime" : 161.0,
+    "pct2ResTime" : 1046.0,
+    "pct3ResTime" : 2251.9399999999987,
+    "throughput" : 163.74494317087266,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  },
+  "JoinRoom" : {
+    "transaction" : "JoinRoom",
+    "sampleCount" : 10100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 747.8349504950494,
+    "medianResTime" : 64.0,
+    "minResTime" : 25.0,
+    "maxResTime" : 62242.0,
+    "pct1ResTime" : 132.0,
+    "pct2ResTime" : 1040.0,
+    "pct3ResTime" : 2251.899999999998,
+    "throughput" : 162.16042643375505,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  },
+  "CreateRoom" : {
+    "transaction" : "CreateRoom",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1754.6900000000005,
+    "medianResTime" : 1764.0,
+    "minResTime" : 1278.0,
+    "maxResTime" : 2253.0,
+    "pct1ResTime" : 2187.1,
+    "pct2ResTime" : 2227.2999999999997,
+    "pct3ResTime" : 2252.93,
+    "throughput" : 43.66812227074236,
+    "receivedKBytesPerSec" : 0.0,
+    "sentKBytesPerSec" : 0.0
+  }
+}

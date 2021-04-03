@@ -1,3 +1,0 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1616350472080,522,CreateRoom,200,OK,CreateRoom 1-1,text,true,,0,0,1,2,null,0,0,0
-1616350472080,639,JoinRoom,200,OK,JoinRoom 2-1,text,true,,0,0,1,1,null,0,0,0
