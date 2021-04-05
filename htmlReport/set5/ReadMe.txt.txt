@@ -1,0 +1,1 @@
+LB-v1 ( 5 containers ) = 4core 8gb
