@@ -1,0 +1,5 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1619372680789,61687,UserType3,200,OK,UserType3_V1V2 3-1,text,true,,0,0,1,4,null,0,0,0
+1619372680782,61694,UserType2,200,OK,UserType2_V1V2 2-1,text,true,,0,0,1,4,null,0,0,0
+1619372680789,61687,UserType4,200,OK,UserType4_V1V2 4-1,text,true,,0,0,1,4,null,0,0,0
+1619372678785,64634,UserType1,200,OK,UserType1_V1V2 1-1,text,true,,0,0,1,1,null,0,0,0

@@ -1,0 +1,86 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1619399265079,6112,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-712,text,false,,0,0,1200,3060,null,0,0,0
+1619399265106,49697,UserType4,500,javax.script.ScriptException: java.net.SocketException: Connection reset,UserType4_LB-split(Haris) 4-333,text,false,,0,0,600,3059,null,0,0,0
+1619399265104,55284,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-853,text,false,,0,0,1200,3059,null,0,0,0
+1619399265517,56924,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-1162,text,false,,0,0,1199,3058,null,0,0,0
+1619399264478,70974,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-226,text,false,,0,0,1199,3057,null,0,0,0
+1619399265484,69971,UserType4,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType4_LB-split(Haris) 4-522,text,false,,0,0,600,3056,null,0,0,0
+1619399264725,70754,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-341,text,false,,0,0,1198,3055,null,0,0,0
+1619399265523,69957,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-1167,text,false,,0,0,1197,3054,null,0,0,0
+1619399264723,70759,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-338,text,false,,0,0,1196,3053,null,0,0,0
+1619399264744,70737,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-363,text,false,,0,0,1197,3054,null,0,0,0
+1619399265464,70020,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-1108,text,false,,0,0,1194,3051,null,0,0,0
+1619399265470,70015,UserType4,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType4_LB-split(Haris) 4-515,text,false,,0,0,599,3050,null,0,0,0
+1619399264760,70726,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-380,text,false,,0,0,1193,3049,null,0,0,0
+1619399264488,71006,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-132,text,false,,0,0,1192,3048,null,0,0,0
+1619399265487,70008,UserType4,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType4_LB-split(Haris) 4-524,text,false,,0,0,598,3047,null,0,0,0
+1619399265481,70015,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-1125,text,false,,0,0,1191,3046,null,0,0,0
+1619399265460,70056,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-1105,text,false,,0,0,1190,3045,null,0,0,0
+1619399265480,70036,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-1124,text,false,,0,0,1189,3044,null,0,0,0
+1619399264590,71110,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-234,text,false,,0,0,1188,3043,null,0,0,0
+1619399264667,71036,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-114,text,false,,0,0,597,3042,null,0,0,0
+1619399265430,70274,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-1074,text,false,,0,0,1187,3041,null,0,0,0
+1619399265190,70516,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-834,text,false,,0,0,1186,3040,null,0,0,0
+1619399264736,70971,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-354,text,false,,0,0,1185,3039,null,0,0,0
+1619399265268,70440,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-414,text,false,,0,0,596,3038,null,0,0,0
+1619399264846,70863,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-474,text,false,,0,0,1184,3037,null,0,0,0
+1619399264548,71162,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-54,text,false,,0,0,595,3036,null,0,0,0
+1619399264410,72749,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-55,text,false,,0,0,1183,3035,null,0,0,0
+1619399265131,72032,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-775,text,false,,0,0,1182,3034,null,0,0,0
+1619399264792,72394,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-414,text,false,,0,0,1181,3033,null,0,0,0
+1619399265028,72159,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-294,text,false,,0,0,594,3032,null,0,0,0
+1619399264649,72540,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-294,text,false,,0,0,1180,3031,null,0,0,0
+1619399264530,72661,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-174,text,false,,0,0,1179,3030,null,0,0,0
+1619399265131,72061,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-880,text,false,,0,0,1198,3029,null,0,0,0
+1619399264909,72305,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-650,text,false,,0,0,1197,3028,null,0,0,0
+1619399264881,72346,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-631,text,false,,0,0,1196,3027,null,0,0,0
+1619399264770,81453,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-165,text,false,,0,0,593,3026,null,0,0,0
+1619399265468,80784,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-1112,text,false,,0,0,1178,3025,null,0,0,0
+1619399264767,81487,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-387,text,false,,0,0,1177,3024,null,0,0,0
+1619399265475,80780,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-1119,text,false,,0,0,1176,3023,null,0,0,0
+1619399264891,82823,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-640,text,false,,0,0,1195,3022,null,0,0,0
+1619399264885,91461,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-635,text,false,,0,0,1194,3021,null,0,0,0
+1619399265388,90990,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-474,text,false,,0,0,592,3020,null,0,0,0
+1619399265439,90940,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-1188,text,false,,0,0,1193,3019,null,0,0,0
+1619399265428,90953,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-1177,text,false,,0,0,1192,3018,null,0,0,0
+1619399264877,91534,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-627,text,false,,0,0,1191,3017,null,0,0,0
+1619399264887,92029,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-637,text,false,,0,0,1190,3016,null,0,0,0
+1619399264863,92107,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-612,text,false,,0,0,1189,3015,null,0,0,0
+1619399264864,92124,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-613,text,false,,0,0,1188,3014,null,0,0,0
+1619399264850,92170,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-600,text,false,,0,0,1187,3013,null,0,0,0
+1619399265292,91731,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-936,text,false,,0,0,1175,3012,null,0,0,0
+1619399265299,91753,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-943,text,false,,0,0,1174,3011,null,0,0,0
+1619399265310,91746,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-954,text,false,,0,0,1173,3010,null,0,0,0
+1619399264884,92977,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-633,text,false,,0,0,1186,3009,null,0,0,0
+1619399264441,99899,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-85,text,false,,0,0,1172,3008,null,0,0,0
+1619399265505,98867,UserType4,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType4_LB-split(Haris) 4-533,text,false,,0,0,591,3007,null,0,0,0
+1619399264630,99743,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-274,text,false,,0,0,1171,3006,null,0,0,0
+1619399265280,99124,UserType4,500,javax.script.ScriptException: java.net.SocketException: Connection reset,UserType4_LB-split(Haris) 4-420,text,false,,0,0,590,3005,null,0,0,0
+1619399264378,100027,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-split(Boss) 2-126,text,false,,0,0,1185,3004,null,0,0,0
+1619399265236,100273,UserType4,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType4_LB-split(Haris) 4-397,text,false,,0,0,589,3003,null,0,0,0
+1619399265238,100297,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-882,text,false,,0,0,1170,3002,null,0,0,0
+1619399264847,100694,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-475,text,false,,0,0,1169,3001,null,0,0,0
+1619399265236,100309,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-877,text,false,,0,0,1168,3000,null,0,0,0
+1619399265193,100763,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-837,text,false,,0,0,1167,2999,null,0,0,0
+1619399265211,100779,UserType3,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType3_LB-split(Nutt) 3-855,text,false,,0,0,1166,2998,null,0,0,0
+1619399265202,100786,UserType4,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType4_LB-split(Haris) 4-381,text,false,,0,0,588,2998,null,0,0,0
+1619399265190,100801,UserType4,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType4_LB-split(Haris) 4-375,text,false,,0,0,587,2996,null,0,0,0
+1619399265284,100736,UserType4,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType4_LB-split(Haris) 4-422,text,false,,0,0,586,2995,null,0,0,0
+1619399264952,101070,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-256,text,false,,0,0,585,2994,null,0,0,0
+1619399265394,105833,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-1038,text,false,,0,0,1165,2993,null,0,0,0
+1619399264472,106761,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-16,text,false,,0,0,584,2993,null,0,0,0
+1619399265312,105924,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-436,text,false,,0,0,583,2992,null,0,0,0
+1619399264712,106526,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-136,text,false,,0,0,582,2991,null,0,0,0
+1619399265552,105687,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-556,text,false,,0,0,581,2990,null,0,0,0
+1619399265033,106207,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-676,text,false,,0,0,1165,2989,null,0,0,0
+1619399264832,106409,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-196,text,false,,0,0,580,2988,null,0,0,0
+1619399265451,105792,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-1096,text,false,,0,0,1164,2987,null,0,0,0
+1619399265152,106092,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-796,text,false,,0,0,1163,2986,null,0,0,0
+1619399264592,106653,UserType4,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType4_LB-split(Haris) 4-76,text,false,,0,0,579,2985,null,0,0,0
+1619399264613,106633,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-256,text,false,,0,0,1162,2984,null,0,0,0
+1619399264867,106380,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-496,text,false,,0,0,1161,2983,null,0,0,0
+1619399264976,106273,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-616,text,false,,0,0,1160,2982,null,0,0,0
+1619399264811,106439,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-436,text,false,,0,0,1159,2981,null,0,0,0
+1619399264672,106585,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-316,text,false,,0,0,1158,2980,null,0,0,0
+1619399264553,106705,UserType3,500,javax.script.ScriptException: java.net.SocketTimeoutException: Read timed out,UserType3_LB-split(Nutt) 3-196,text,false,,0,0,1157,2979,null,0,0,0
+1619399264633,106625,UserType2,500,javax.script.ScriptException: java.net.SocketException: Software caused connection abort: recv failed,UserType2_LB-sp
